@@ -1,0 +1,11 @@
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\bin\Debug\net6.0\BookingApplication.Dto.deps.json
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\bin\Debug\net6.0\BookingApplication.Dto.dll
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\bin\Debug\net6.0\BookingApplication.Dto.pdb
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\BookingApplication.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\BookingApplication.Dto.AssemblyInfoInputs.cache
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\BookingApplication.Dto.AssemblyInfo.cs
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\BookingApplication.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\BookingApplication.Dto.dll
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\refint\BookingApplication.Dto.dll
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\BookingApplication.Dto.pdb
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Frontends\BookingApplication.Dto\obj\Debug\net6.0\ref\BookingApplication.Dto.dll

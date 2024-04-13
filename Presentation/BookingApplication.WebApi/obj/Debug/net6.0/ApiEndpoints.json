@@ -1,0 +1,995 @@
+[
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirlineController",
+    "Method": "AirlineList",
+    "RelativePath": "api/Airline/AirlineList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirlineController",
+    "Method": "CreateAirline",
+    "RelativePath": "api/Airline/CreateAirline",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.AirlineCommands.CreateAirlineCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirlineController",
+    "Method": "GetAirline",
+    "RelativePath": "api/Airline/GetAirline/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirlineController",
+    "Method": "RemoveAirline",
+    "RelativePath": "api/Airline/RemoveAirline",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirlineController",
+    "Method": "UpdateAirline",
+    "RelativePath": "api/Airline/UpdateAirline",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.AirlineCommands.UpdateAirlineCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirportController",
+    "Method": "AirportList",
+    "RelativePath": "api/Airport/AirportList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirportController",
+    "Method": "CreateAirport",
+    "RelativePath": "api/Airport/CreateAirport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.AirportCommands.CreateAirportCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirportController",
+    "Method": "GetAirport",
+    "RelativePath": "api/Airport/GetAirport/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirportController",
+    "Method": "RemoveAirport",
+    "RelativePath": "api/Airport/RemoveAirport",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.AirportController",
+    "Method": "UpdateAirport",
+    "RelativePath": "api/Airport/UpdateAirport",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.AirportCommands.UpdateAirportCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogCategoryController",
+    "Method": "BlogCategoryList",
+    "RelativePath": "api/BlogCategory/BlogCategoryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogCategoryController",
+    "Method": "CreateBlogCategory",
+    "RelativePath": "api/BlogCategory/CreateBlogCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.BlogCategoryCommands.CreateBlogCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogCategoryController",
+    "Method": "GetBlogCategory",
+    "RelativePath": "api/BlogCategory/GetBlogCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogCategoryController",
+    "Method": "RemoveBlogCategory",
+    "RelativePath": "api/BlogCategory/RemoveBlogCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogCategoryController",
+    "Method": "UpdateBlogCategory",
+    "RelativePath": "api/BlogCategory/UpdateBlogCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.BlogCategoryCommands.UpdateBlogCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogsController",
+    "Method": "BlogList",
+    "RelativePath": "api/Blogs/BlogList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogsController",
+    "Method": "CreateBlog",
+    "RelativePath": "api/Blogs/CreateBlog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.BlogCommands.CreateBlogCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogsController",
+    "Method": "GetBlog",
+    "RelativePath": "api/Blogs/GetBlog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogsController",
+    "Method": "RemoveBlog",
+    "RelativePath": "api/Blogs/RemoveBlog",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.BlogsController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/Blogs/UpdateBlog",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.BlogCommands.UpdateBlogCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.CurrenciesController",
+    "Method": "CreateCurrency",
+    "RelativePath": "api/Currencies/CreateCurrency",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.CurrencyCommands.CreateCurrencyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.CurrenciesController",
+    "Method": "CurrencyList",
+    "RelativePath": "api/Currencies/CurrencyList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.CurrenciesController",
+    "Method": "GetCurrency",
+    "RelativePath": "api/Currencies/GetCurrency/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.CurrenciesController",
+    "Method": "RemoveCurrency",
+    "RelativePath": "api/Currencies/RemoveCurrency",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.CurrenciesController",
+    "Method": "UpdateCurrency",
+    "RelativePath": "api/Currencies/UpdateCurrency",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.CurrencyCommands.UpdateCurrencyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FilterHotelRoomsController",
+    "Method": "GetHotelRoomsByHotelID",
+    "RelativePath": "api/FilterHotelRooms/GetHotelRoomsByHotelID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FilterHotelsController",
+    "Method": "GetHotelsByLocation",
+    "RelativePath": "api/FilterHotels/GetHotelsByLocation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FilterToursController",
+    "Method": "GetToursByTourtype",
+    "RelativePath": "api/FilterTours/GetToursByTourtype",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourtypeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightReservationsController",
+    "Method": "CreateFlightReservation",
+    "RelativePath": "api/FlightReservations/CreateFlightReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createFlightReservationCommand",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.FlightReservationCommands.CreateFlightReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightReserveController",
+    "Method": "GetFlightsByAirport",
+    "RelativePath": "api/FlightReserve/GetFlightsByAirport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "airportid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "available",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightsController",
+    "Method": "CreateFlight",
+    "RelativePath": "api/Flights/CreateFlight",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.FlightCommands.CreateFlightCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightsController",
+    "Method": "FlightList",
+    "RelativePath": "api/Flights/FlightList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightsController",
+    "Method": "GetFeaturedFlights",
+    "RelativePath": "api/Flights/GetFeaturedFlights",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightsController",
+    "Method": "GetFlight",
+    "RelativePath": "api/Flights/GetFlight/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightsController",
+    "Method": "RemoveFlight",
+    "RelativePath": "api/Flights/RemoveFlight",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightsController",
+    "Method": "UpdateFlight",
+    "RelativePath": "api/Flights/UpdateFlight",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.FlightCommands.UpdateFlightCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightTypeController",
+    "Method": "CreateFlightType",
+    "RelativePath": "api/FlightType/CreateFlightType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.FlightTypeCommands.CreateFlightTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightTypeController",
+    "Method": "FlightTypeList",
+    "RelativePath": "api/FlightType/FlightTypeList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightTypeController",
+    "Method": "GetFlightType",
+    "RelativePath": "api/FlightType/GetFlightType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightTypeController",
+    "Method": "RemoveFlightType",
+    "RelativePath": "api/FlightType/RemoveFlightType",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.FlightTypeController",
+    "Method": "UpdateFlightType",
+    "RelativePath": "api/FlightType/UpdateFlightType",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.FlightTypeCommands.UpdateFlightTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelReservationController",
+    "Method": "CreateHotelReservation",
+    "RelativePath": "api/HotelReservation/CreateHotelReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createHotelReservationCommand",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.HotelReservationCommands.CreateHotelReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelsController",
+    "Method": "CreateHotel",
+    "RelativePath": "api/Hotels/CreateHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.HotelCommands.CreateHotelCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelsController",
+    "Method": "Get5Hotel",
+    "RelativePath": "api/Hotels/Get5Hotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelsController",
+    "Method": "GetHotel",
+    "RelativePath": "api/Hotels/GetHotel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelsController",
+    "Method": "HotelList",
+    "RelativePath": "api/Hotels/HotelList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelsController",
+    "Method": "RemoveHotel",
+    "RelativePath": "api/Hotels/RemoveHotel",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.HotelsController",
+    "Method": "UpdateHotel",
+    "RelativePath": "api/Hotels/UpdateHotel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.CQRS.Commands.HotelCommands.UpdateHotelCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.LocationsController",
+    "Method": "CreateLocation",
+    "RelativePath": "api/Locations/CreateLocation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createLocationCommand",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.LocationCommands.CreateLocationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.LocationsController",
+    "Method": "DeleteLocation",
+    "RelativePath": "api/Locations/DeleteLocation",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.LocationsController",
+    "Method": "GetAllLocations",
+    "RelativePath": "api/Locations/GetAllLocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.LocationsController",
+    "Method": "GetLocationById",
+    "RelativePath": "api/Locations/GetLocationById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.LocationsController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/Locations/UpdateLocation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateLocationCommand",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.LocationCommands.UpdateLocationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.RegistersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Registers/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.AppUserCommands.CreateAppUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.SignInController",
+    "Method": "Login",
+    "RelativePath": "api/SignIn/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "BookingApplication.Application.Features.Mediator.Queries.AppUserQueries.GetCheckAppUserQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.TourReservationController",
+    "Method": "CreateTourReservation",
+    "RelativePath": "api/TourReservation/CreateTourReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTourReservationCommand",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.TourReservationCommands.CreateTourReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.ToursController",
+    "Method": "CreateTour",
+    "RelativePath": "api/Tours/CreateTour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.TourCommands.CreateTourCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.ToursController",
+    "Method": "GetPopularTours",
+    "RelativePath": "api/Tours/GetPopularTours",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.ToursController",
+    "Method": "GetTour",
+    "RelativePath": "api/Tours/GetTour/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.ToursController",
+    "Method": "RemoveTour",
+    "RelativePath": "api/Tours/RemoveTour",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.ToursController",
+    "Method": "TourList",
+    "RelativePath": "api/Tours/TourList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.ToursController",
+    "Method": "UpdateTour",
+    "RelativePath": "api/Tours/UpdateTour",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.TourCommands.UpdateTourCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.TourTypeController",
+    "Method": "CreateTourType",
+    "RelativePath": "api/TourType/CreateTourType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.TourTypeCommands.CreateTourTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.TourTypeController",
+    "Method": "GetTourType",
+    "RelativePath": "api/TourType/GetTourType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.TourTypeController",
+    "Method": "RemoveTourTpe",
+    "RelativePath": "api/TourType/RemoveTourTpe",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.TourTypeController",
+    "Method": "TourTypeList",
+    "RelativePath": "api/TourType/TourTypeList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingApplication.WebApi.Controllers.TourTypeController",
+    "Method": "UpdateTourType",
+    "RelativePath": "api/TourType/UpdateTourType",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookingApplication.Application.Features.Mediator.Commands.TourTypeCommands.UpdateTourTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,11 @@
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\bin\Release\net6.0\BookingApplication.Domain.deps.json
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\bin\Release\net6.0\BookingApplication.Domain.dll
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\bin\Release\net6.0\BookingApplication.Domain.pdb
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\BookingApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\BookingApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\BookingApplication.Domain.AssemblyInfo.cs
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\BookingApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\BookingApplication.Domain.dll
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\refint\BookingApplication.Domain.dll
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\BookingApplication.Domain.pdb
+C:\Users\Görkem\OneDrive\Masaüstü\BookingApplication\BookingApplication\Core\BookingApplication.Domain\obj\Release\net6.0\ref\BookingApplication.Domain.dll

@@ -1,0 +1,22 @@
+﻿@model BookingApplication.Dto.TourReservationDtos.CreatetourReservationDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<div class="col-md-12 block-9 mb-md-5">
+    <form class="bg-light p-5 contact-form" method="post">
+        <h3 class="alert alert-success">Tour Reservation Form</h3>
+        <br />
+        <input type="text" asp-for="TourID" value="@ViewBag.tourID" class="form-control" placeholder="TourID">
+        <div class="form-group">
+            <input type="text" asp-for="Person" class="form-control" placeholder="Person">
+        </div>      
+        <div class="form-group">
+            <input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5">
+        </div>
+    </form>
+
+</div>
+
+@* tourprice değeri olucak bu sayfada o değerle personu çarpıcam *@

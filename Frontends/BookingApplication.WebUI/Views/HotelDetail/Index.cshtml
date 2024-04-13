@@ -1,0 +1,28 @@
+﻿@model List<BookingApplication.Dto.HotelReservationDtos.FilterHotelRoomDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="car-wrap rounded ftco-animate">
+                        <div class="img rounded d-flex align-items-end" style="background-image: url(@item.RoomImage);"></div>
+                        <div class="text">
+                            <h2 class="mb-0"><a href="#">@item.HotelName</a></h2>
+                            <div class="d-flex mb-3">
+                                <span class="cat">@item.RoomType</span>
+                                <p class="price ml-auto">@item.RoomPrice</p>
+                            </div>
+                            <p class="d-flex mb-0 d-block"><a href="/HotelReservation/Index/@item.HotelRoomID" class="btn btn-primary py-2 mr-1">Book now</a></p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
